@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Biografía de María Antonieta</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --pink-light: #f6d6e5;
+      --pink-soft: #efb7cf;
+      --pink-accent: #c97aa4;
+      --cream: #fff6ee;
+      --paper: #f9efe7;
+      --burn: #c2a58d;
+      --text-dark: #4a2c3a;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: radial-gradient(circle at top, var(--cream), #f1e3d8);
+      color: var(--text-dark);
+      line-height: 1.8;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--pink-light), var(--pink-soft));
+      padding: 3rem 2rem;
+      text-align: center;
+      border-bottom: 6px solid var(--pink-accent);
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      letter-spacing: 2px;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-style: italic;
+      font-size: 1.1rem;
+    }
+
+    nav {
+      margin-top: 1.5rem;
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      text-decoration: none;
+      font-family: 'Playfair Display', serif;
+      color: #4a2c3a;
+      background: #f9efe7;
+      padding: 0.7rem 1.6rem;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+
+    main {
+      max-width: 900px;
+      margin: 3.5rem auto;
+      padding: 0 2rem;
+      display: grid;
+      gap: 3rem;
+    }
+
+    section {
+      background-color: var(--paper);
+      padding: 2.6rem;
+      border-radius: 22px;
+      box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+      position: relative;
+    }
+
+    section::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: 22px;
+      background:
+        radial-gradient(circle at top left, rgba(194,165,141,0.35), transparent 45%),
+        radial-gradient(circle at bottom right, rgba(194,165,141,0.35), transparent 50%);
+      pointer-events: none;
+    }
+
+    section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.2rem;
+      margin-bottom: 1.5rem;
+      color: var(--pink-accent);
+      text-align: center;
+    }
+
+    section p {
+      margin-bottom: 1.2rem;
+      text-align: justify;
+    }
+
+    /* === CONTENEDOR DE VIDEO (MISMO QUE INDEX) === */
+    .video-container {
+      background-color: var(--pink-light);
+      border-radius: 18px;
+      padding: 1.2rem;
+      margin: 0 auto;
+      border: 3px dashed var(--burn);
+      box-shadow: inset 0 0 25px rgba(0,0,0,0.15);
+      display: flex;
+      justify-content: center;
+    }
+
+    .video-container video {
+      width: 175px;
+      border-radius: 14px;
+    }
+
+    footer {
+      background-color: var(--pink-soft);
+      text-align: center;
+      padding: 2rem;
+      margin-top: 4rem;
+      font-size: 0.9rem;
+      letter-spacing: 1px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>María Antonieta</h1>
+  <p>Una reina entre el esplendor y la revolución</p>
+
+  <nav>
+    <a href="Index copy.HTML">Principal</a>
+    <a href="Aportes.HTML">Aportes</a>
+    <a href="Biografia.HTML">Biografía</a>
+  </nav>
+</header>
+
+<main>
+
+  <section>
+    <h2>Biografía</h2>
+
+    <p>María Antonieta es la reina de Francia y una de las figuras más importantes de la historia europea...</p>
+    <p>Su vida cambia por completo cuando, siendo muy joven, se casa con Luis XVI...</p>
+    <p>María Antonieta es conocida por su gusto por la elegancia, la moda, el arte y la música...</p>
+    <p>Con el paso del tiempo, el descontento popular aumenta y la Revolución Francesa toma fuerza...</p>
+    <p>La revolución transforma su vida por completo...</p>
+    <p>María Antonieta simboliza el final de una época y el inicio de una nueva forma de pensar en Francia...</p>
+  </section>
+
+  <!-- 🔽 VIDEO FINAL -->
+  <section>
+    <h2>Retrato audiovisual</h2>
+
+    <div class="video-container">
+watermarked-ffc3b545-a55e-4253-b4bd-a6bdca3f12c6
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  Estilo vintage · Tonos rosa pastel · Biografía de María Antonieta
+</footer>
+
+</body>
+</html>
