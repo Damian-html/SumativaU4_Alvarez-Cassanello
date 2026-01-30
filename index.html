@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
@@ -55,6 +56,22 @@
 }
 
 .video-container video {
+  width: 175px;
+  border-radius: 14px;
+}
+.video-container2 {
+  background-color: var(--pink-light);
+  border-radius: 18px;
+  padding: 1.2rem;
+  margin: 0 auto 2rem auto;
+  border: 3px dashed var(--burn);
+  box-shadow: inset 0 0 25px rgba(0,0,0,0.15);
+
+  display: flex;
+  justify-content: center;
+}
+
+.video-container2 video {
   width: 175px;
   border-radius: 14px;
 }
@@ -160,6 +177,7 @@
     <nav style="margin-top:1.5rem; display:flex; justify-content:center; gap:1.5rem;">
       <a href="#inicio" style="text-decoration:none; font-family:'Playfair Display',serif; color:#4a2c3a; background:#f9efe7; padding:0.6rem 1.4rem; border-radius:20px; box-shadow:0 4px 10px rgba(0,0,0,0.15);">Principal</a>
       <a href="aportes.html" style="text-decoration:none; font-family:'Playfair Display',serif; color:#4a2c3a; background:#f2b6cf; padding:0.6rem 1.4rem; border-radius:20px; box-shadow:0 4px 10px rgba(0,0,0,0.15);">Aportes</a>
+      <a href="biografia.html " style="text-decoration:none; font-family:'Playfair Display',serif; color:#4a2c3a; background:#f9efe7; padding:0.6rem 1.4rem; border-radius:20px; box-shadow:0 4px 10px rgba(0,0,0,0.15);">Biografía</a>
     </nav>
   </header>
 
@@ -195,7 +213,11 @@
 
     <!-- Imagen + texto -->
     <section class="hero" style="grid-template-columns:1fr 1.2fr;">
-      <div class="image-placeholder">Escena de Versa
+      <div class="video-container2"> 
+      <video controls>
+        <source src="watermarked-bb65a26d-6ce4-40fb-85c8-9c5122dbbbc2.mp4" type="video/mp4">
+      </video>
+      </div>
 
   <footer>
     Estilo vintage · Tonos rosa pastel · Inspirado en María Antonieta
@@ -203,4 +225,3 @@
 
 </body>
 </html>
-
